@@ -96,11 +96,9 @@ nav > ul > li:nth-child(2) {
   text-align: center;
   letter-spacing: 0.06em;
 }
-
 .our-friends-section_slider {
   margin-top: 30px;
 }
-
 .our-friends-section_slider > ul {
   display: flex;
   flex-wrap: wrap;
@@ -138,17 +136,28 @@ nav > ul > li:nth-child(2) {
   margin: 29px  auto 0 ;
 }
 .our-friends-section_slider__navigation {
-  margin-top: 45px;
+  display: flex;
+  justify-content: space-between;
+  width: 28.333%;
+  margin: 58px auto 0;
   text-align: center;
 }
 .our-friends-section_slider__navigation > button {
   width: 52px;
   height: 52px;
+  padding: 0;
   border-radius: 50%;
   font-family: serif;
   font-family: var(--font-georgia);
   font-size: 1.429rem;
   line-height: 115%;
   letter-spacing: 0.06em;
-  text-align: center;
+}
+.our-friends-section_slider__navigation > button:active {
+  background-color: var(--buttons-color);
+}
+.our-friends-section_slider__navigation > button:disabled {
+  background-color: inherit;
+  border: 2px solid #CDCDCD;
+  color: #CDCDCD;
 }

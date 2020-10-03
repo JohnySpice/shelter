@@ -180,6 +180,7 @@ nav > ul > li:first-child {
 }
 .friends-section_slider > ul {
   justify-content: space-around;
+
 }
 .friends-section_slider__arrow {
   width: 52px;
@@ -199,6 +200,7 @@ nav > ul > li:first-child {
   text-align: center;
   align-content: space-between;
   padding: 0 0 30px 0;
+  border-radius: 9px 9px 0px 0px;
   background: #FAFAFA;
 }
 .friends-section_slider > ul > li:hover {

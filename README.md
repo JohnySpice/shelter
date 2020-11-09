@@ -1,2 +1,3 @@
-# johnyspice-JS2020Q3
-Private repository for @johnyspice
+# Shelter  
+Pixel perfect markup  
+Deployment: https://johnyspice.github.io/shelter/shelter/
